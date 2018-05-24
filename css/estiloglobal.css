@@ -1,5 +1,14 @@
 body {
   background-color: blue;
   width: 1200;
+}
 
+#banner {
+  background-color: purple;
+  position: static;
+}
+
+#contenido {
+ width: 600px;
+ align-content: center;
 }
