@@ -1,14 +1,62 @@
 body {
   background-color: blue;
-  width: 1200;
+  width: 1200px;
+
 }
 
 #banner {
   background-color: purple;
   position: static;
+  height: 100px;
+  width: 1200px;
+
 }
 
 #contenido {
- width: 600px;
- align-content: center;
+
+width: 1200px;
+margin: center;
+margin-top: 10px;
+background-color: white;
+
+}
+
+#titulo{
+text-align: center; 
+
+
+}
+
+#imagen1{
+  float: left;
+  width: 500px;
+  height: 200px;
+  background: red;
+  margin: 25px;
+}
+
+#texto{
+  width: 500px;
+  height: 200px;
+  margin:25px;
+  float: right;
+  background-color: green;
+  text-align: justify center;
+}
+
+
+#formulario{
+float: left;
+width: 500px;
+height: 200px;
+margin: 25px;
+background: brown;
+}
+
+#imagen2{
+  float: right;
+  width: 500px;
+  height: 200px;
+  background-color: Red;
+  margin: 25px;
 }
