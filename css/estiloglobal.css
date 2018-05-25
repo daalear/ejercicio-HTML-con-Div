@@ -1,61 +1,64 @@
-body {
-  background-color: blue;
-  width: 1200px;
+body{
+
+  }
+
+#banner{
+  width: auto;
+  height: 144px;
+  position: relative;
+  background-position: center;
+
 
 }
 
-#banner {
-  background-color: purple;
-  position: static;
-  height: 100px;
-  width: 1200px;
-
+h1{
+  text-align: center;
 }
 
-#contenido {
 
-width: 1200px;
-margin: center;
-margin-top: 10px;
-background-color: white;
 
-}
-
-#titulo{
-text-align: center; 
-
+#contenido{
+background-color: blue;
+width: 600px;
+display: block;
+margin: auto;
 
 }
 
 #imagen1{
   float: left;
-  width: 500px;
+  width: 250px;
   height: 200px;
   background: red;
   margin: 25px;
 }
 
 #texto{
-  width: 500px;
+  width: 250px;
   height: 200px;
   margin:25px;
   float: right;
-  background-color: green;
   text-align: justify center;
 }
 
 
 #formulario{
 float: left;
-width: 500px;
+width: 250px;
 height: 200px;
 margin: 25px;
 background: brown;
 }
 
+form{
+  margin-top: auto;
+  text-align: center;
+  padding-top: 5px;
+}
+
 #imagen2{
   float: right;
-  width: 500px;
+  width: 250px;
   height: 200px;
   background-color: Red;
   margin: 25px;
