@@ -4,25 +4,20 @@ body{
 
 #banner{
   width: auto;
-  height: 144px;
-  position: relative;
+  height: 200px;
   background-position: center;
+  overflow: hidden;
+  }
 
-
-}
-
-h1{
+#titulo{
   text-align: center;
 }
-
-
 
 #contenido{
 background-color: blue;
 width: 600px;
 display: block;
 margin: auto;
-
 }
 
 #imagen1{
@@ -60,6 +55,26 @@ form{
   float: right;
   width: 250px;
   height: 200px;
-  background-color: Red;
+  background-color: royalblue;
   margin: 25px;
 }
+
+#footer{
+
+  height: 400px;
+  background: cadetblue;
+}
+
+#footer p{
+    float: left;
+    height: auto;
+    text-align: center;
+
+  }
+
+#footerimg{
+    float: right;
+    width: 800px;
+    height: auto;
+    overflow: hidden;
+  }
